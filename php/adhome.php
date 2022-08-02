@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/cssbuy/indexstyle.css">
+    <link rel="stylesheet" href="indexstyle.css">
     <link rel="icon" type="image/x-icon" href="images/fav.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +12,13 @@
     <section class="organisers-section">
         <div class="events">
             <div class="event-info">
-                <h3 class="heading-days"><img class="artist" src="images/ken.jpg" alt="artist">MAIN AUDI CONCERT WITH KENNY SOL</h3>
+                <h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/ken.jpg" alt="artist">MAIN AUDI CONCERT WITH KENNY SOL</h3>
                 <p>Info: Access to Kenny Sol's concert and performances with DJ Phil Peter and live band</p>
                 <p>Time: 2022-07-02</p>
                 <p>Location: Main Auditorium</p>
                 <p>Organised by: REMA</p>
-                <a class="get-ticket" href="css2/buy1.html">GET TICKET</a>
             </div>
-            <div class="event-info"><h3 class="heading-days"><img class="artist" src="images/La fouine.jpg" alt="artist">MOCA-Imbuga City Zone with La Fouine (even-details/41/show)</h3>
+            <div class="event-info"><h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/La fouine.jpg" alt="artist">MOCA-Imbuga City Zone with La Fouine (even-details/41/show)</h3>
                 <p>Info: Powered by WAKWANDA BOUTIQUE:
                     FASHION SHOW WITH GILLES TOURE
                     from Cote d’Ivoire, GRACE WALACE
@@ -30,20 +29,20 @@
                 <p>Time: 2022-07-02 - 2022-07-02</p>
                 <p>Location: HOTEL des Mille Collines</p>
                 <p>Organised by: Africa in Colors</p>
-                <a class="get-ticket" href="css2/buy2.html">GET TICKET</a></div>
-            <div class="event-info"><h3 class="heading-days"><img class="artist" src="images/Toxxyk.jpg" alt="artist">Dj Toxxyk concert (event-details/42/show)</h3>
+            </div>
+            <div class="event-info"><h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/Toxxyk.jpg" alt="artist">Dj Toxxyk concert (event-details/42/show)</h3>
                
                <blockquote><p>Info: Dj Toxxyk concert event</p>
                 <p>Time: 2022-06-30 - 2022-06-30</p>
                 <p>Location: Radisson Blue</p>
                 <p>Organised by: Africa in Colors</p></blockquote>
-                <a class="get-ticket" href="css2/buy3.html">GET TICKET</a></div>
-            <div class="event-info"><h3 class="heading-days"><img class="artist" src="images/BEN.jpg" alt="artist">MOCA-Imbuga City Zone with The Ben</h3>
+            </div>
+            <div class="event-info"><h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/BEN.jpg" alt="artist">MOCA-Imbuga City Zone with The Ben</h3>
                 <p>Info: Access to THE BEN's concert</p>
                 <p>Time: 2022-08-06</p>
                 <p>Location: CANAL OREMPIA</p>
                 <p>Organised by: EAST AFRICAN PROMOTERS</p>
-                <a class="get-ticket" href="css2/buy4.html">GET TICKET</a></div>
+                 </div>
         </div>
     </section>
 <section>
