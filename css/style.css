@@ -1,0 +1,50 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color:#fff;
+    letter-spacing: 1px;
+}
+
+.container {
+    background-color:#fafafa;
+    margin: 100px;
+    box-shadow: rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container-time{
+    background-color: rgba(0, 0, 0, .95);
+    padding: 50px;
+    outline: 3px dashed #c9b92b;
+    outline-offset: -30px;
+    text-align: center;
+}
+.heading{
+font-size: 30px;
+}
+.heading-days{
+    color: #c9b92b;
+    font-size: 30px;
+}
+.heading-phone{
+    font-size: 20px;
+}
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color:rgb(0, 0, 0)
+}
+form{
+    display: grid;
+    grid-row-gap: 20px; 
+}
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-weight: 600;
+}
+legend{
+    color: #c9b92b;
+}

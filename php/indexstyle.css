@@ -1,0 +1,143 @@
+:root {
+   --primary-color: #007AF3;
+}
+body {
+    background: #f2f2f2;
+    margin: 0;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(6, 79, 148);
+    font-size: 1.9em;
+    }
+    span {
+        color: green;
+        font-size: .5em;
+    }
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+}
+.organisers-section {
+    padding: 2em 2em;
+    background-color: rgba(15, 70, 87, 0.336);
+}
+.events {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.get-ticket {
+    background-color: rgba(240, 236, 229, 0.466);
+    color: rgb(231, 165, 42);
+    text-decoration: none;
+    padding: .6em 1.3em;
+    border-radius: 5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+.artist {
+    width: 6em;
+    height: 6em;
+    border-style: 5em;
+
+}
+
+.form {
+background: #d4a711a8;
+
+}
+.input {
+    width: 50%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    box-sizing: border-box;
+}
+.buy-tickect{
+    background-color: rgba(226, 234, 235, 0.541);
+    color: rgba(223, 188, 124, 0.767);
+    text-decoration: none;
+    padding: .6em 1.3em;
+    border-radius: 5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+select {
+    width: 40%;
+    padding: .8em;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.about {
+    text-align: center;
+    color: black;
+}
+
+.a-nav {
+    color:#007AF3;
+    text-decoration: none;
+    padding: .9em;
+    font-size: 1.5em;
+    margin: 0em;
+    text-align: right;
+
+
+    
+}
+.mobile-menu-open {
+    
+    margin: .5em;
+    cursor: pointer;
+}
+iframe {
+    width: 100%;
+    padding: .4em;
+    display: inline-block;
+    height: 45em;
+}
+
+
+.navbar {
+    background-color: rgba(17, 104, 185, 0.178);
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding-left: 12px;
+  color: #041027;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+.active {
+  background-color: #e3e7ee;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}

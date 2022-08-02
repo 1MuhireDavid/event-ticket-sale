@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="icon" type="image/x-icon" href="images/fav.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKETS ONLINE</title>
+</head>
+<body>
+    <header>
+        <div>
+                
+        
+               
+                <div class="navbar">
+                    <a class="logo" href="index.php">TICKETS<span>ONLINE</span></a>
+                    <a class="active" href="index.php"><i class="fa fa-fw fa-home"></i> Home</a> 
+                    <a href="event.php"><i class="fa fa-fw fa-search"></i>EVENTS</a> 
+                    <a href="login.php"><i class="fa fa-fw fa-envelope"></i> LOGIN</a> 
+                  </div>
+              </div>
+    </header>
+    <section class="organisers-section">
+        <div class="events">
+            <div class="event-info">
+                <h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/ken.jpg" alt="artist">MAIN AUDI CONCERT WITH KENNY SOL</h3>
+                <p>Info: Access to Kenny Sol's concert and performances with DJ Phil Peter and live band</p>
+                <p>Time: 2022-07-02</p>
+                <p>Location: Main Auditorium</p>
+                <p>Organised by: REMA</p>
+                <a class="get-ticket" href="ticket1.php">GET TICKET</a>
+            </div>
+            <div class="event-info"><h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/La fouine.jpg" alt="artist">MOCA-Imbuga City Zone with La Fouine (even-details/41/show)</h3>
+                <p>Info: Powered by WAKWANDA BOUTIQUE:
+                    FASHION SHOW WITH GILLES TOURE
+                    from Cote d’Ivoire, GRACE WALACE
+                    FROM Benin, DAVID TLALE FROM South
+                    Africa, SIMONE&ELISE from Cote d’Ivoire,
+                    TWINKLE by ASTY from Rwanda
+                    </p>
+                <p>Time: 2022-07-02 - 2022-07-02</p>
+                <p>Location: HOTEL des Mille Collines</p>
+                <p>Organised by: Africa in Colors</p>
+                <a class="get-ticket" href="ticket2.php">GET TICKET</a></div>
+            <div class="event-info"><h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/Toxxyk.jpg" alt="artist">Dj Toxxyk concert (event-details/42/show)</h3>
+               
+               <blockquote><p>Info: Dj Toxxyk concert event</p>
+                <p>Time: 2022-06-30 - 2022-06-30</p>
+                <p>Location: Radisson Blue</p>
+                <p>Organised by: Africa in Colors</p></blockquote>
+                <a class="get-ticket" href="ticket3.php">GET TICKET</a></div>
+            <div class="event-info"><h3 class="heading-days"><img class="artist" src="/TICKET_SELL/images/BEN.jpg" alt="artist">MOCA-Imbuga City Zone with The Ben</h3>
+                <p>Info: Access to THE BEN's concert</p>
+                <p>Time: 2022-08-06</p>
+                <p>Location: CANAL OREMPIA</p>
+                <p>Organised by: EAST AFRICAN PROMOTERS</p>
+                <a class="get-ticket" href="ticket4.php">GET TICKET</a></div>
+        </div>
+    </section>
+<section>
+    <div class="about">
+<a href="#">About (about-us) | </a> <a href="#">Contact (contact-us) | </a> <a href="#">Terms and condition (terms-condition)</a>
+<p>&copy; McDave 2022.-- All Rights Reserved.</p>
+</div>
+</section>
+  </body>
+</html>

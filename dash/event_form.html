@@ -1,0 +1,52 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CREATE EVENT</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color:rgb(190, 168, 68)">
+  <div class="header">
+  	<h2>Register</h2>
+  </div>
+	
+  <form method="post" action="register.php">
+  	<?php include('errors.php'); ?>
+  	<div class="input-group">
+  	  <label>EVENT NAME</label>
+  	  <input type="text" name="event_name" value="<?php echo $firstName; ?>">
+  	</div>
+	  <div class="input-group">
+  	  <label>PRICE</label>
+  	  <input type="number" name="price" value="<?php echo $lastName; ?>">
+  	</div>
+	  <div class="input-group">
+  	  <label>NUMBER OF TICKETS</label>
+  	  <input type="number" name="e_tkts" value="<?php echo $username; ?>">
+  	</div>
+	  <div class="input-group">
+  	  <label>EVENT DATE</label>
+  	  <input type="date" name="event_date" value="<?php echo $age; ?>">
+  	</div>
+  	<div class="input-group">
+  	  <label>EVENT LOCATION</label>
+  	  <input type="text" name="event_place" value="<?php echo $email; ?>">
+  	</div>
+  	<div class="input-group">
+  	  <label>EVENT ORGANISERS</label>
+  	  <input type="text" name="event_organisers">
+  	</div>
+  	<div class="input-group">
+  	  <label>ARTIST 1</label>
+  	  <input type="text" name="artist1">
+  	</div>
+	  <div class="input-group">
+  	  <label>ARTIST 2</label>
+  	  <input type="text" name="artist2">
+  	</div>
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">SUBMIT</button>
+  	</div>
+  </form>
+</body>
+</html>

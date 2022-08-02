@@ -1,0 +1,53 @@
+.navbar {
+    background-color: rgba(17, 104, 185, 0.178);
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding-left: 12px;
+  color: #041027;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+.active {
+  background-color: #e3e7ee;
+  color: white;
+}
+header {
+    background: rgba(17, 104, 185, 0.178);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+button {
+  float: left;
+  padding-left: 12px;
+  color: #041027;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0;
+  display: inline-block;
+  border: 0;
+  background: rgba(17, 104, 185, 0.178);
+}
+span {
+  color: green;
+  font-size: .5em;
+}
